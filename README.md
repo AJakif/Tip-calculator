@@ -27,11 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Verison](/Screenshots/desktop.png)
+![Desktop Verison](./Screeshots/desktop.png)
 
-![Tablet Verison](/Screenshots/tablet.png)
+![Tablet Verison](./Screenhots/tablet.png)
 
-![Mobile Verison](/Screenshots/mobile.png)
+![Mobile Verison](./Screeshots/mobile.png)
 
 
 
