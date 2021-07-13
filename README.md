@@ -29,7 +29,7 @@ Users should be able to:
 
 ![Desktop Verison](./Screeshots/desktop.png)
 
-![Tablet Verison](./Screenhots/tablet.png)
+![Tablet Verison](./Screeshots/tablet.png)
 
 ![Mobile Verison](./Screeshots/mobile.png)
 
