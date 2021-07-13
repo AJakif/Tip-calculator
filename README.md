@@ -27,7 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop Verison](./Screenshots/desktop.png)
+
+![Tablet Verison](./Screenshots/tablet.png)
+
+![Mobile Verison](./Screenshots/mobile.png)
 
 
 
@@ -43,6 +47,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Javascript
 
 ### What I learned
 
