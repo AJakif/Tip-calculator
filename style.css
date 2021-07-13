@@ -1,0 +1,237 @@
+body{
+    background: hsl(185, 41%, 84%);
+    font-family: 'Space Mono', monospace;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+footer{
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.fields{
+    animation-duration: 1.5s; 
+}
+.total--container{
+    animation-duration: 1.5s; 
+}
+.main-row{
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+input {
+    text-align: right;
+    border: none!important;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    border-radius: .5rem;
+    color: hsl(183, 100%, 15%);
+    background:#f3f8fb;
+    
+   
+}
+.disable{
+    pointer-events: none;
+    opacity: .20;
+}
+.error{
+    color: #ff6c6c;
+    
+}
+.error-neg,.error-neg-no{
+    color: #ff6c6c;
+    font-size: 0.9rem;
+}
+.error-focus{
+    outline-color: #ff6c6c;
+    outline-style:solid;
+}
+.select:hover{
+    background-color: #9fefe4;
+    cursor: pointer;
+    color: #00474b;
+}
+.btn-check:focus+.btn, .btn:focus {
+    box-shadow: none;
+}
+.reset:hover{
+    background-color:  #9fefe4;
+    cursor: pointer;
+    color: #00474b;
+}
+.active-tip{
+    background-color: #27c1ac!important;
+}
+.reset{
+    width: 100%;
+    transition: all .25s ease-in-out;
+}
+#custom{
+    padding: 0.5rem 0.9rem!important;
+
+}
+.custom {
+    background:#f3f8fb;
+    padding: 0rem;
+}
+
+#bill:focus{
+    outline-color: #27c1ac;
+    outline-style: dashed;
+}
+#person:focus{
+    outline-color: #27c1ac;
+    outline-style: dashed;
+}
+#custom:focus{
+    outline-color: #27c1ac;
+    outline-style: dashed;
+}
+.bill,.tip--container,.person-container,.total--container{
+    width: 90%!important;
+    margin: auto;
+}
+.total--container{
+    border-radius: 12px;
+}
+
+.select{
+    background-color: #00474b;
+    color: white;
+    text-align: center;
+    padding: 0.6rem 0rem;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    transition: all .25s ease-in-out;
+}
+#person{
+    background: url(./assets/icon-person.svg),#f3f8fb;
+    background-repeat: no-repeat;
+    background-position: 10px 18px;
+    padding: 0.5rem 0.9rem!important;
+}
+#bill{
+    background:url(./assets/icon-dollar.svg),#f3f8fb;
+    background-repeat: no-repeat;
+    background-position: 10px 18px;
+    text-align: right;
+    border: none!important;
+    padding: 0.5rem 0.9rem!important;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    border-radius: .5rem;
+    color: hsl(183, 100%, 15%);
+
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+::placeholder{
+    color: #9EBBBD;
+    text-align: right;
+}
+
+.form-label{
+    color:  hsl(186, 14%, 43%);
+    font-size: 1.1rem;
+}
+
+.col-5-custom{
+    width: 46.666667%;
+}
+.total--container{
+    background: hsl(183, 100%, 15%);
+    color: white;
+}
+.tip-total h3{
+    font-size: 1rem;
+}
+.toatl-total h3{
+    font-size: 1rem;
+}
+.toatl-total p{
+    font-size: 0.8rem;
+    opacity: 60%;
+}
+.tip-total p{
+    font-size: 0.8rem;
+    opacity: 60%;
+}
+
+.toatl-total-no h3{
+    font-size: 2rem;
+    color: #27c1ac;
+}
+
+.tip-total-no h3{
+    font-size: 2rem;
+    color: #27c1ac;
+}
+.reset{
+    background: #27c1ac;
+    text-transform: uppercase;
+    color: hsl(183, 100%, 15%);
+    font-size: 1.2rem;
+}
+@media (min-width:375px){
+    .total--container{
+        height: 420px;
+    }
+    .second-col{
+        margin-top: 2rem;
+    }
+    .reset{
+        position: absolute;
+        width: 90%;
+        bottom: 5%;
+        left: 5%;
+    }
+    .total--container{
+        position: relative;
+    }
+    .main-row{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+}
+
+
+@media (min-width:992px){
+    .col-5-custom{
+        width:30.333333% ;
+    }
+    #custom{
+        font-size: 1.2rem;
+    }
+    .shrink-custom{
+        padding: 1.5rem 0rem;
+    }
+    .reset{
+        bottom: 10%;
+    }
+    .tip-total-no h3{
+        font-size: 2.5rem;
+    }
+    .toatl-total-no h3{
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width:1440px){
+    .container{
+        max-width: 900px;
+    }
+}
